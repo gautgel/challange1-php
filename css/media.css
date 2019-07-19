@@ -1,0 +1,74 @@
+@media only screen and (min-device-width:564px){
+    .profil{
+        width: 80%;
+        height: 80vh;
+    }
+    .footer{
+        flex-direction: row;
+    }
+    .wiki{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-device-width:880px){
+    .profil{
+        width: 60%;
+        height: 55vh;
+    }
+}
+
+@media only screen and (min-device-height:1024px){
+    .profil{
+        width:60%;
+        height:35vh;
+        border: 0.5vmin solid rgba(141, 110, 99, 0.9);
+    }
+    .wiki{
+        height: 50vh;
+        font-size: 1.6vmin;
+    }
+    .footer{
+        height: 15vh;
+        font-size: 3vmin;
+    }
+    .imgs{
+        width: 94%;
+        height: 55vh;
+    }
+}
+
+@media only screen and (min-device-width:1024px){
+    .profil{
+        width: 30%;
+        height: 35vh;
+    }
+    h1{
+        font-size: 3vmin !important;
+    }
+    .footer{
+        height: 22vh;
+        font-size: 3vmin;
+    }
+    .galerie{
+        margin-left: 5vmin;
+    }
+    .imgs{
+        width: 30%;
+        height: 45vh;
+    }
+}
+
+@media only screen and (min-device-width: 1500px){
+    .profil{
+        width: 35%;
+        height: 43vh;
+    }
+    .imgs{
+        width: 30%;
+        height: 35vh;
+    }
+}
